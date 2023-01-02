@@ -7,8 +7,8 @@ void	print_usage(void)
 
 void	print_help()
 {
-	printf("Convbase converts and print out the number given in base base_from to base_to.\n");
-	printf("The number is a signed int. It can be precedes by spaces, '+' or '-'.\n");
+	printf("Convbase converts and prints out the number given in base BASE_FRON to BASE_TO.\n");
+	printf("The number max is a signed integer. It can be preceded by spaces, '+' or '-'.\n");
 	printf("The amount of '-' determines the sign of the number (odd == negative).\n");
 	printf("The bases must not contain twice the same character, neither '+' or '-'.\n");
 }
