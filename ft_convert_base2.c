@@ -16,9 +16,7 @@ int	ft_reslen(int nbr, char *base)
 {
 	int	reslen;
 
-	if (nbr < 0)
-		reslen = 1;
-	else if (nbr == 0)
+	if (nbr <= 0)
 		reslen = 1;
 	else
 		reslen = 0;
